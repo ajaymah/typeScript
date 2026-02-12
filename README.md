@@ -26,5 +26,5 @@ interface Person {
 interface Employee extends Person {
   salary: number;
 }
-``  
+``
 
