@@ -18,7 +18,7 @@ interface User {
 > Note - simple object shapes, both work almost the same.
 
 **Interface can be extended**  
-``
+```
 interface Person {
   name: string;
 }
@@ -26,5 +26,6 @@ interface Person {
 interface Employee extends Person {
   salary: number;
 }
-``
+```
+   
 
