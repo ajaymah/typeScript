@@ -42,6 +42,21 @@ interface User {
   age: number;
 }
 ```
+**Type is more powerful (can define more than objects)**  
+- **Union types**
+```
+type Status = "success" | "error" | "loading";
+```
+**Primitive types**  
+```
+type ID = string | number;
+```
+**Tuples**
+```
+type Point = [number, number];
+```
+**Function types**  
+type Add = (a: number, b: number) => number;  
 
    
 
