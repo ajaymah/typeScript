@@ -7,7 +7,7 @@ interface User {
   name: string;
   age: number;
 }
-``
+``  
 **type**  
 ``type User = {
   name: string;
