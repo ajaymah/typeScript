@@ -36,7 +36,7 @@ interface User {
 interface User {
   age: number;
 }
-- **output**
+//output//
 {
   name: string;
   age: number;
