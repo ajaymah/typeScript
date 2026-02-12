@@ -14,4 +14,6 @@ interface User {
   age: number;
 };
 ``
+> [!NOTE]
+> Note - simple object shapes, both work almost the same.
 
