@@ -26,6 +26,22 @@ interface Person {
 interface Employee extends Person {
   salary: number;
 }
+```  
+**You can define the same interface multiple times:**  
 ```
+interface User {
+  name: string;
+}
+
+interface User {
+  age: number;
+}
+- **output**
+{
+  name: string;
+  age: number;
+}
+```
+
    
 
