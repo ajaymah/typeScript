@@ -17,3 +17,14 @@ interface User {
 > [!NOTE]
 > Note - simple object shapes, both work almost the same.
 
+**Interface can be extended**  
+``  
+interface Person {
+  name: string;
+}
+
+interface Employee extends Person {
+  salary: number;
+}
+``  
+
