@@ -56,7 +56,8 @@ type ID = string | number;
 type Point = [number, number];
 ```
 **Function types**  
+```
 type Add = (a: number, b: number) => number;  
-
+```
    
 
