@@ -47,15 +47,15 @@ interface User {
 ```
 type Status = "success" | "error" | "loading";
 ```
-**Primitive types**  
+- **Primitive types**  
 ```
 type ID = string | number;
 ```
-**Tuples**
+- **Tuples**
 ```
 type Point = [number, number];
 ```
-**Function types**  
+- **Function types**  
 ```
 type Add = (a: number, b: number) => number;  
 ```
