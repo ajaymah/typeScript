@@ -8,3 +8,10 @@ interface User {
   age: number;
 }
 ``
+**type**  
+``type User = {
+  name: string;
+  age: number;
+};
+``
+
